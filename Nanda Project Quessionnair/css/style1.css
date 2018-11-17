@@ -1,0 +1,49 @@
+#jumo
+{
+  height: 100vh;
+  background-image: url("../assets/cat.jpg");
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+}
+body
+{
+  background-repeat: no-repeat;
+  background-position: 02% 10%;
+  background-attachment: fixed; 
+  font-style:vedana,Arial,Arial black;
+  font-size: 15px;
+  font-weight: bolder;
+  color: red;
+  line-height: 1.5em;
+}
+h1
+{
+  text-decoration: underline;
+  color: white;
+} 
+td
+{
+  border: 1px solid green;
+  border-right: none;
+  border-bottom: none;
+  color: black;
+  font-size: 20px;
+}
+td:nth-last-child(1){
+  border-right:1px solid green;
+  border-bottom: 1px solid green;
+}
+ th
+{
+  border: 1px solid white;
+  border-right: none;
+  border-bottom: none;
+  font-size: 25px;
+  color: black
+}
+th:nth-last-child(1){
+  border-right:1px solid green;
+}
+table{
+  border-bottom: 1px solid green;
+}
